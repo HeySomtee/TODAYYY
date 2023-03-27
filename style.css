@@ -5,6 +5,8 @@
     scroll-behavior: smooth;
 }
 
+
+
 body{
     background-color: black;
     color: white;
@@ -362,7 +364,7 @@ li
 .tailerDiv
 {
     margin-top: -5vh;
-    margin-left: -5vw;
+    margin-left: vw;
     font-size: 60px;
     position: absolute;
     width: 70vw;

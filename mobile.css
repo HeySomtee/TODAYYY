@@ -5,13 +5,45 @@
 
     .tailerDiv
     {
-        font-size: 40px;
+        font-size: 30px;
         margin-top: 5vh;
         /* display: none; */
     }
+
+    .intro img
+    {
+        display: none;
+    }
+
+    .header img
+{
+    margin-top: -10vh;
+    width: 80vw;
+
+}
+
+    /* .xcx
+    {
+        margin-top: -50vh;
+        width: 100vw;
+    } */
+
+    #root3
+    {
+        margin-top: -20vh;
+        overflow: hidden;
+    }
+
+    #last-root
+    {
+        overflow: hidden;
+        height: 150vh;
+    }
+
     .tT
     {
         margin-top: 15vh;
+        font-size: 20px;
     }
     .route
     {
