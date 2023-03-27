@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TODAY 🧱/🌿</title>
+    <link rel="icon" type="image/x-jpg" href="/favicon.jpg">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+    <link rel="stylesheet" href="/mobile.css">
+    <script src="https://html2canvas.hertzen.com/dist/html2canvas.js"></script>
+</head>
+
+<body>
+   <div class="route">
+    <div id="root" class="root">
+
+        <div class="backgroundImageDiv1">
+            <!-- <img src="/background2.jpeg" alt=""> -->
+            <img src="/TODAYbk.jpeg" alt="">
+        </div>
+
+        <div class="mm-ss">
+            <div class="social-div">
+                <a href="https://twitter.com/todaythegame" target="_blank" rel="noopener noreferrer">
+                    <i class="fa-brands fa-twitter"></i>
+                </a>
+                <a href="https://www.instagram.com/todaythegame/" target="_blank" rel="noopener noreferrer">
+                    <i class="fa-brands fa-instagram"></i>
+                </a>
+                  <i style="opacity: 0.8; color: #b8b6b6;" class="fa-brands fa-discord"></i>
+                <!-- <i class="fa-brands fa-facebook"></i> -->
+                <!-- <i class="fa-brands fa-medium"></i> -->
+                
+            </div>
+        </div>
+        <!-- /////////////console//////////////////// -->
+
+        <div class="consoleF" id="consoleF">
+
+            <div class="console-grid">
+
+                <div id="console-board">
+                    <img class="console-img" src="/textremovebg.png" alt="">
+
+                    <div id="console-text">
+                        <!-- <h2>TODAY 🧱/🌿</h2> -->
+                        <p id="t-hanlde"></p>
+                    </div>
+
+                    <div class="console-image-div">
+                        <img id="console-image-avatar" src="/TODAY5.jpeg" alt="">
+                    </div>
+
+                </div>
+<br>
+                <div class="console-controls">
+
+                   <div class="xc">
+                        <div>
+                            <span>background-color: </span>
+                            <input type="color" name="" id="color-picker">
+                        </div>
+
+                        <div>
+                            <span>Text color</span>
+                            <input type="color" name="" id="text-color-picker">
+                        </div>
+                        <br><br>
+                        <div>
+                            <span>Twitter ID</span>
+                            <input id="twitterID" type="text" value="@_">
+                        </div>
+                   </div>
+                    <br><br>
+
+                   <div class="banner-img-div">
+                        <span>Banner Image: </span>
+                        <div class="image-arr">
+                            <img id="cA1" src="/background.jpeg" alt="ava1">
+                            <img id="cA2" src="/ava2.jpg" alt="ava2">
+                            <img id="cA3" src="/ava3.jpg" alt="ava3">
+                            <img id="cA4" src="/ava4.jpg" alt="ava4">
+                            <img id="cA5" src="/ava5.jpg" alt="ava5">
+                            <!-- <img id="cA2" src="/TODAY5.jpeg" alt=""> -->
+                        </div>
+                    
+                    </div>
+
+                    <div class="close" >
+                        <i id="closeBtn" onclick="nDisplay()" class="fa-solid fa-close"></i>
+                        <i onclick="downloadimage()" class="fa-solid fa-download clickbtn"></i>
+                       
+                    </div>
+
+                    <!-- <button  class="">Click To Download Image</button> -->
+                </div>
+            </div>
+
+        </div>
+
+        
+<br>
+       <div class="main-nav">
+            <div class="nav-bar">
+                <a href="#root2"targe><li>About</li></a>
+                <a href="#root3"><li>Gameplay</li></a>
+                <a href="#last-root"><li>Team</li></a>
+                <li id="dropdown" onclick="bDisplay()">banner</li>
+                
+            </div>
+       </div>
+
+     
+
+        <div class="main">
+
+            <div class="header">
+                <img src="/textremovebg.png" alt="">
+
+                <div class="intro">
+                    <img src="floatImg.png" alt="">
+                </div>
+            </div>
+
+           
+        </div>
+
+       
+        
+        
+    </div>
+
+    <div class="root2" id="root2" >
+
+        <div class="av">
+            <img class="av-img" src="/images.jpeg" alt="">
+            <img class="av-img2" src="/avv.png" alt="">
+            <div class="div">
+                <p class="hh">WHAT IS <span class="tt">TODAY GAME?</span></p>
+                <div class="underline"></div>
+<br>
+                <div class="textBox">
+                    
+Today is an upcoming social sandbox game in which the land has a soul that must be nourished.
+Create and curate online worlds called Islands, where you can forage, farm and build in single and co-operative play.
+Join one of the fastest growing communities in games.
+<br><br>
+Platform for the creative development of beautiful virtual worlds
+
+
+AI driven creative tools, characters, and emergent gameplay
+
+
+Vibrant web3 creator economy driven by collectibles and events
+
+
+Inventive game design that blends foraging, farming, and building
+
+
+Immersive metafication narrative that will unravel over seasons
+
+
+Mesmerizing interactive musical score that adapts to your actions
+
+                </div>
+            </div>
+        </div>
+    </div>
+<br><br>
+    <div class="root3" id="root3">
+
+        
+        <div class="vidDiv">
+            <div class="tailerDiv">
+                <h1>T</h1>
+                <h1>O</h1>
+                <h1>D</h1>
+                <h1>A</h1>
+                <h1>Y</h1>
+                <h1> </h1>
+                <h1> </h1>
+                <h1>G</h1>
+                <h1>A</h1>
+                <h1>M</h1>
+                <h1>E</h1>
+                <span class="tT">
+                    <span>T</span><span>R</span><span>A</span><span>I</span><span>L</span><span>E</span><SPAN>R</SPAN>
+                </span>
+            </div>
+
+           <div class="style">
+                <img class="techFrame" src="/techFrame.webp" alt="">
+                <video muted autoplay loop class="techVid" src="/beta-vid.mp4"></video>
+           </div>
+        </div>
+    </div>
+
+    <div id="last-root">
+       <div style="
+        width: 100vw;
+        display: grid;
+        place-content: center;
+        ">
+            <h1><span style="color: #ebb813;">TE</span>AM</h1>
+       </div>
+        <div class="team-div">
+            <div>
+                <h1>MICHAEL <span>O'CONNOR</span></h1>
+                <span>
+                    CEO / Co-Founder
+                     Nintendo and SEGA games veteran. Director of award-winning interactive VR experience Glimpse.
+                </span>
+            </div>
+
+            <div>
+                <h1>BENJAMIN <span>CLEARY</span></h1>
+                <span>
+                    Creative Dir / Co-Founder <br>
+                    Oscar winning writer-director of Golden Globe nominated Swan Song (2022) and Oscar winning Stutterer (2017).
+                </span>
+            </div>
+
+            <div>
+                <h1>KEN <span>WONG</span></h1>
+                <span>
+                    Game Designer <br>
+                    Designed and directed the game Monument Valley, which has sold 30+ million copies worldwide.
+                </span>
+            </div>
+            
+        </div> <br>
+        <div class="team-div">
+            <div>
+                <h1>TIAGO <span>LOUREIRO</span></h1>
+                <span>
+                    Technichal director <br>
+                    Principal Engineer at Scopely (Stumble Guys). Tech Director at Multiplayer Guys (Call of Duty: MWII)
+                </span>
+            </div>
+
+            <div>
+                <h1>FILIPE <span>DUARTE PINA</span></h1> <br>
+               <span>
+                Senior Producer <br>
+                Senior Producer of life simulation MMO, Avakin Life (200m registered users, 1m daily active users).
+               </span>
+            </div>
+
+            <div>
+                <h1>NATASHA <span>JEN</span></h1>
+                <span>
+                    Visual Designer<br>
+                    Partner at Pentagram. In 2015, Natasha was named one of the “World’s Nine Leading Designers” by Wired.
+                </span>
+            </div>
+        </div>
+    </div>
+   </div>
+
+    <script src="index.js"></script>
+</body>
+</html>
