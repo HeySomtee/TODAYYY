@@ -3,6 +3,12 @@
         background-color: black;
     }
 
+    .backgroundImageDiv1
+    {
+        width: 100vw;
+        overflow-x: hidden;
+    }
+
     .backgroundImageDiv1 img
     {
         width: 250vw;
