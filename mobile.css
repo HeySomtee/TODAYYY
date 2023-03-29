@@ -3,12 +3,20 @@
         background-color: black;
     }
 
+    .backgroundImageDiv1 img
+    {
+        width: 250vw;
+        margin-left: -75vw;
+    }
+
     .tailerDiv
     {
         font-size: 30px;
         margin-top: 5vh;
         /* display: none; */
     }
+
+   
 
     .intro img
     {
@@ -18,7 +26,7 @@
     .header img
 {
     margin-top: -10vh;
-    width: 80vw;
+    width: 100vw;
 
 }
 
@@ -37,7 +45,7 @@
     #last-root
     {
         overflow: hidden;
-        height: 150vh;
+        height: 130vh;
     }
 
     .tT
@@ -94,7 +102,7 @@
 
     .console-image-div img
     {
-        width: 32vw;
+        width: 65vw;
         height: 20vh;
     }
 
@@ -151,7 +159,6 @@
     position: absolute;
     width: 100vw;
     height: 100vh;
-    background-color: #ffffff4f;
     z-index: 200;
     
 }
@@ -180,6 +187,17 @@
 .root3
 {
     margin-top: -35vh;
+}
+
+.console-img{
+    width: 100vw;
+    margin-top: -5vh;
+}
+
+#t-hanlde
+{
+    /* margin-top: -0.1vh; */
+    font-size: 15px;
 }
 
 }

@@ -21,11 +21,16 @@ function myFunc2(params) {
 myFunc2();
 
 function nDisplay(params) {
-    document.getElementById('consoleF').style.display = "none"
+    //anti-reveal
+    document.getElementById('consoleF').style.animationName = "anti-reveal"
+    setTimeout(() => {
+        document.getElementById('consoleF').style.display = "none"
+    }, 1001);
 }
 
 function bDisplay(params) {
-    document.getElementById('consoleF').style.display = "block"  
+    document.getElementById('consoleF').style.display = "block"
+    document.getElementById('consoleF').style.animationName = "reveal";  
 }
 
 // myFunc();

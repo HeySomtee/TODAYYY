@@ -409,18 +409,38 @@ a
 
 .consoleF
 {
+    margin-top: -200vh;
     display: none;
     position: absolute;
     width: 100vw;
     height: 100vh;
-    background-color: #ffffff4f;
     z-index: 200;
     /* From https://css.glass */
-background: rgba(255, 255, 255, 0.07);
-box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-backdrop-filter: blur(8.4px);
--webkit-backdrop-filter: blur(8.4px);
-border: 1px solid rgba(255, 255, 255, 0.09);
+    background-color: #0a0a0a0e;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(7.4px);
+    -webkit-backdrop-filter: blur(8.4px);
+    border: 1px solid rgba(255, 255, 255, 0.09);
+    animation: reveal 01s forwards;
+}
+
+@keyframes reveal {
+    100%
+    {
+        margin-top: 0vh;
+    }
+}
+
+@keyframes anti-reveal {
+    0%
+    {
+        margin-top: 0vh;
+    }
+
+    100%
+    {
+        margin-top: -200vh;
+    }
 }
 
 .console-grid
